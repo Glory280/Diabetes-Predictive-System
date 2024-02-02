@@ -38,4 +38,4 @@ From the given data;
 - Diabetes prevails more among obese individuals
 - Diabetes prevails more among females with lower skin thickness (21-40)
 - The number of non-diabetic patients supersedes that of diabetic patients
-
+-[View Dashboard]()
