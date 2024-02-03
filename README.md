@@ -39,4 +39,4 @@ From the given data;
 - Diabetes prevails more among females with lower skin thickness (21-40)
 - The number of non-diabetic patients supersedes that of diabetic patients
   
--[View Dashboard](https://drive.google.com/file/d/1aAh_SgQf5liediWYWfle71pmSo-ilc8T/view?usp=sharing)
+-[View Dashboard](https://drive.google.com/file/d/1tEiv5PMbW0s1vV8X-dAE-nPeBnnR309H/view?usp=sharing)
