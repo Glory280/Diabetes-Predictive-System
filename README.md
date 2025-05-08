@@ -35,6 +35,19 @@ Steps carried out to prepare the dataset:
 
 ## 🔍 Exploratory Data Analysis (EDA)
 
+### 1. Diabetes Outcome Distribution
+![Outcome Distribution](images/outcome_distribution.png)
+
+### 2. BMI Category vs Diabetes
+![BMI vs Outcome](images/bmi_vs_outcome.png)
+
+### 3. Age Group vs Diabetes
+![Age vs Outcome](images/age_vs_outcome.png)
+
+### 4. Pregnancies vs Diabetes
+![Pregnancies vs Outcome](images/pregnancies_vs_outcome.png)
+
+
 ### 📈 Total Number of Diabetic Patients
 - **268** patients were classified as diabetic (`Outcome = 1`)
 
