@@ -94,6 +94,26 @@ This analysis highlights key factors contributing to diabetes in the population 
 ---
 
 ## 📁 Project Structure
+📦 diabetes-diagnosis
+┣ 📊 data/
+┃ ┗ pima_diabetes.csv
+┣ 📈 notebooks/
+┃ ┗ eda_analysis.ipynb
+┣ 📄 README.md
+┗ 📜 report.pdf (optional export)
+
+
+---
+
+## 🙌 Acknowledgments
+- Dataset: [MeriSkill Internship Program]
+- Based on diagnostic data of Pima Indian women, originally sourced from the UCI Machine Learning Repository.
+
+---
+
+## 📬 Contact
+If you'd like to collaborate or ask questions, feel free to connect!
+
 
 
 # Diabetes Predictive System
