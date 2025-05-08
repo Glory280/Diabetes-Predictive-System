@@ -83,19 +83,6 @@ This analysis highlights key factors contributing to diabetes in the population 
 - 📢 Launch **public health campaigns** targeted at lifestyle management in younger age groups
 - 🔄 Investigate **feature interactions**, such as between glucose and insulin
 
----
-
----
-
-## 📁 Project Structure
-📦 diabetes-diagnosis
-┣ 📊 data/
-┃ ┗ pima_diabetes.csv
-┣ 📈 notebooks/
-┃ ┗ eda_analysis.ipynb
-┣ 📄 README.md
-┗ 📜 report.pdf (optional export)
-
 
 ---
 
