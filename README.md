@@ -1,17 +1,19 @@
 # 🩺 Diabetes Diagnostic Analysis – Pima Indian Women Dataset
+### Population Health Insights from the Pima Indian Women Dataset
 
 ## 📌 Project Objective
-The aim of this project is to diagnostically detect the primary contributors to diabetes among adult female patients of Pima Indian heritage (aged 21 and above) using medical diagnostic features. The goal is to derive actionable insights that can support early diagnosis and targeted prevention strategies.
+This project applies a public health analytics approach to identify key clinical and demographic factors associated with diabetes among adult women of Pima Indian heritage (aged 21+).
 
----
+The objective is not only diagnostic classification, but to generate population-level insights that can inform early detection, targeted screening, and preventive health interventions in high-risk female populations.
 
 ## 📂 Dataset Overview
-The dataset, provided by **MeriSkill Internship**, includes medical information from Pima Indian women. It consists of 9 features and 1 target variable:
+The dataset (provided through the MeriSkill Internship Program, originally from the UCI Machine Learning Repository) contains medical diagnostic data for Pima Indian women.
 
+It includes 8 predictor variables and 1 binary outcome variable:
 | Feature              | Description                                                         |
 |----------------------|----------------------------------------------------------------------|
-| `Pregnancies`         | Number of times the patient has been pregnant                       |
-| `Glucose`             | Plasma glucose concentration from an oral glucose tolerance test    |
+| `Pregnancies`         | Number of pregnancies                                               |
+| `Glucose`             | Plasma glucose concentration (oral glucose tolerance test)          |
 | `BloodPressure`       | Diastolic blood pressure (mm Hg)                                    |
 | `SkinThickness`       | Triceps skinfold thickness (mm)                                     |
 | `Insulin`             | 2-Hour serum insulin (mu U/ml)                                      |
@@ -22,20 +24,21 @@ The dataset, provided by **MeriSkill Internship**, includes medical information 
 
 ---
 
-## 🧹 Data Cleaning & Preprocessing
-Steps carried out to prepare the dataset:
+## 🧹 Data Preparation & Management
+To ensure data quality and analytical validity, the following preprocessing steps were performed:
 
-- ✅ **Data loading & inspection**
-- 🛠 **Formatting** numeric columns appropriately
-- ❗ **Missing value handling** (especially for `Insulin`, `BMI`, `SkinThickness`)
-- 🔁 **Duplicate record removal**
-- 📊 **Binning** of continuous variables (e.g., age groups, BMI categories)
+- ✅ **Data loading and structural inspection**
+- 🛠 **Standardization and formatting of numerical variables** 
+- ❗ **Identification and handling of biologically implausible or missing values** (Identification and handling of biologically implausible or missing values)
+- 🔁 **Removal of duplicate records**
+- 📊 **Categorization of continuous variables** (Age groups and BMI classifications (normal, overweight, obese))
+These steps align with real-world public health data cleaning practices, where clinical datasets often contain incomplete or noisy measurements.
 
 ---
 
 ## 🔍 Exploratory Data Analysis (EDA)
 
-### 📈 Total Number of Diabetic Patients
+### 📈 Diabetes Prevalence
 - **268** patients were classified as diabetic (`Outcome = 1`)
 
 ### 🧍 Age vs Diabetes
