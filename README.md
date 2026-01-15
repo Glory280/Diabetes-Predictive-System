@@ -32,6 +32,7 @@ To ensure data quality and analytical validity, the following preprocessing step
 - ❗ **Identification and handling of biologically implausible or missing values** (Identification and handling of biologically implausible or missing values)
 - 🔁 **Removal of duplicate records**
 - 📊 **Categorization of continuous variables** (Age groups and BMI classifications (normal, overweight, obese))
+  
 These steps align with real-world public health data cleaning practices, where clinical datasets often contain incomplete or noisy measurements.
 
 ---
@@ -39,20 +40,18 @@ These steps align with real-world public health data cleaning practices, where c
 ## 🔍 Exploratory Data Analysis (EDA)
 
 ### 📈 Diabetes Prevalence
-- **268** patients were classified as diabetic (`Outcome = 1`)
+- **268** women were classified as diabetic. Non-diabetic individuals constituted the majority, reflecting a prevention-opportunity population
+### 🧍 Age Distribution
+- The **21–30 age group** showed the highest number of diabetes cases. This suggests early onset risk rather than disease limited to older adults
 
-### 🧍 Age vs Diabetes
-- **21–30 years** age group had the **highest number of diabetic patients**
-
-### ⚖️ BMI vs Diabetes
-- Diabetes was more common in **obese individuals (BMI ≥ 30)**
-
-### 🤰 Pregnancies vs Diabetes
-- **Lower pregnancy counts (1–3)** had higher diabetes prevalence  
-- Suggests early onset and risk during early reproductive years
-
-### 💉 Skin Thickness vs Diabetes
-- Diabetic cases concentrated in **21–40 mm skin thickness** range
+### ⚖️ Body Mass Index (BMI)
+- Diabetes prevalence increased significantly among **obese individuals (BMI ≥ 30)**. This highlights obesity as a modifiable public health risk factor
+  
+### 🤰 Pregnancy History
+- Higher diabetes prevalence observed among women with **1–3 pregnancies** which indicates that diabetes risk exists early in reproductive life, not only after multiple pregnancies
+  
+### 💉 Skin Thickness
+- Diabetic cases were most common within the 21–40 mm skinfold thickness range.This supports the role of adiposity indicators in diabetes risk assessment
 
 ### 📊 Outcome Distribution
 - **Non-diabetic patients outnumber** diabetic patients in the dataset
@@ -63,7 +62,7 @@ These steps align with real-world public health data cleaning practices, where c
 
 | Feature            | Observation                                                        |
 |--------------------|---------------------------------------------------------------------|
-| **BMI**             | Obesity strongly correlates with diabetes                          |
+| **BMI**             | Strong association between obesity and diabetes risk               |
 | **Age**             | Younger women (21–30) show high risk                               |
 | **Pregnancies**     | Diabetes occurs even at low pregnancy counts                        |
 | **Skin Thickness**  | Moderate levels (21–40 mm) show more diabetic cases                 |
