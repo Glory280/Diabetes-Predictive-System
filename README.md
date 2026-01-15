@@ -53,9 +53,6 @@ These steps align with real-world public health data cleaning practices, where c
 ### 💉 Skin Thickness
 - Diabetic cases were most common within the 21–40 mm skinfold thickness range.This supports the role of adiposity indicators in diabetes risk assessment
 
-### 📊 Outcome Distribution
-- **Non-diabetic patients outnumber** diabetic patients in the dataset
-
 ---
 
 ## 🧠 Key Insights
@@ -63,34 +60,32 @@ These steps align with real-world public health data cleaning practices, where c
 | Feature            | Observation                                                        |
 |--------------------|---------------------------------------------------------------------|
 | **BMI**             | Strong association between obesity and diabetes risk               |
-| **Age**             | Younger women (21–30) show high risk                               |
-| **Pregnancies**     | Diabetes occurs even at low pregnancy counts                        |
-| **Skin Thickness**  | Moderate levels (21–40 mm) show more diabetic cases                 |
-| **General Trend**   | Lifestyle-related factors are strong indicators of diabetes         |
+| **Age**             | Younger women show notable vulnerability                           |
+| **Pregnancies**     | Risk present even with low parity                                  |
+| **Skin Thickness**  | Moderate-to-high adiposity linked to higher prevalence             |
+| **Overall Pattern**   | Lifestyle-related factors dominate diabetes risk                 |
 
 ---
 
-## 📝 Conclusion
-This analysis highlights key factors contributing to diabetes in the population studied:
-
-- **Obesity and young age** are critical contributors.
-- The condition can affect women early in life, even without multiple pregnancies.
-- Non-diabetic individuals still make up the majority, providing room for effective prevention.
+## 📝 Public Health Implications
+This analysis demonstrates that diabetes risk in this population:
+-Is not limited to **older age groups**
+-Is strongly associated with **modifiable lifestyle factors**
+-Can emerge **early in adulthood**, emphasizing the need for earlier intervention
 
 ---
 
 ## ✅ Recommendations
-- 🔍 Encourage **routine glucose screening** for young, obese women
-- 🧪 Build a **predictive model** (e.g., logistic regression, decision tree) for risk assessment
-- 📢 Launch **public health campaigns** targeted at lifestyle management in younger age groups
-- 🔄 Investigate **feature interactions**, such as between glucose and insulin
-
+-Encourage **routine glucose screening** for young and overweight/obese women
+-Integrate diabetes risk assessment into **reproductive and primary care services**
+-Develop **predictive risk models** (e.g., logistic regression) to support early identification
+-Implement **community-based lifestyle interventions** focused on nutrition and physical activity
+-Further analyze **interactions between glucose, insulin, and BMI** to refine risk stratification
 
 ---
 
-## 🙌 Acknowledgments
-- Dataset: [MeriSkill Internship Program]
-- Based on diagnostic data of Pima Indian women, originally sourced from the UCI Machine Learning Repository.
+## 🙌 Data Source & Acknowledgment
+Dataset provided through the MeriSkill Internship Program, based on the Pima Indian Diabetes Dataset from the UCI Machine Learning Repository.
 
 ---
 
