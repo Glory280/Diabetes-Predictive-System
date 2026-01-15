@@ -1,5 +1,5 @@
 # 🩺 Diabetes Diagnostic Analysis – Pima Indian Women Dataset
-### Population Health Insights from the Pima Indian Women Dataset
+### Population Health Insights from the Pima Indian Women Dataset 
 
 ## 📌 Project Objective
 This project applies a public health analytics approach to identify key clinical and demographic factors associated with diabetes among adult women of Pima Indian heritage (aged 21+).
